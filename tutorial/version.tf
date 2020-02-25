@@ -6,6 +6,7 @@ provider "aws" {
 
 provider "aws" {
   #バージョンの固定
+  #別リージョンを使いたい場合、このように記載し、resourceでprovider=aws.tokyoのように記載
   version = "2.50.0"
   region  = "ap-northeast-1"
   alias   = "tokyo"
