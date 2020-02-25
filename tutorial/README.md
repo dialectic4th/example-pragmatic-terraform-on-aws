@@ -95,6 +95,15 @@ $ terraform fmt -recursive -check
 ```
 $ terraform validate
 ```
+
+### TFlint
+- `plan`で検出できないエラーを見つけてくれる
+```
+# brew instal tflint
+$ tflint #構文チェック
+$ tflint --deep --aws-region=ap-northeast-1
+```
+
 ## オートコンプリートの有効
 ```
 $ terraform -install-autocomplete
