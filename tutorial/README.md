@@ -157,6 +157,18 @@ terraform {
 }
 ```
 
+## ワークスペース
+- 複数の環境を用意できる。(ワークスペースごとにtfstateが用意される)
+- これで、prob,dev.stagingそれぞれの環境での実行を一括で管理するとよい(つまり複数のAWS環境を一括で管理できるようになる)
+```
+# 新しいワークスペースの作成
+# 現在のワークスペース
+$ terraform workspace new prod
+
+$ terraform workspace show
+$ terraform workspace select default
+```
+
 ##　※２章のおけるAMIについて
 - リージョンに合わせたAMIを取得する必要がある
 - AMIを確認するには、EC2のコンソールを開いて「インスタンスを作成」を押す
