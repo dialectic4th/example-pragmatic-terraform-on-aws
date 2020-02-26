@@ -168,6 +168,9 @@ $ terraform workspace new prod
 $ terraform workspace show
 $ terraform workspace select default
 ```
+## 異なるtfstateを参照する
+- 異なるtfstateで用いた変数を参照したい際などに用いる
+- https://beyondjapan.com/blog/2019/01/reference-other-tfstate-resource/
 
 ##　※２章のおけるAMIについて
 - リージョンに合わせたAMIを取得する必要がある
