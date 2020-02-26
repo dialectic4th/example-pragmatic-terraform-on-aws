@@ -5,6 +5,8 @@
 ```
 $ brew install terraform tfenv 
 ```
+## VScodeでの設定
+- https://qiita.com/pypypyo14/items/5520f3defa55119f3a1a
 
 ## versionの記録
 - チーム開発用のリポジトリーにバージョンを記録しておく
