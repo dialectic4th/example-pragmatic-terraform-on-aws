@@ -62,6 +62,7 @@ resource "aws_instance" "example" {
 
 ## モジュールの設計原則
 - https://www.terraform.io/docs/modules/index.html
+- https://dev.classmethod.jp/articles/directory-layout-bestpractice-in-terraform/
 ```
 ├── README.md
 ├── main.tf
